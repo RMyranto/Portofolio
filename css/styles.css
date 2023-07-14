@@ -1,0 +1,223 @@
+body{
+	
+	text-align: center;
+	font-family: 'Merriweather', serif;
+
+}
+h1 {
+	margin-top: 0;
+	font-family: 'Sacramento', cursive;
+	font-size: 4.8rem;
+	color: #66BFBF;
+	line-height: 2;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.8rem;
+	color: #66BFBF;
+
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #11999E;
+}
+a {
+	
+	color: #11999E;
+}
+hr {
+	border:dotted #C1D0B5 7px;
+	border-bottom: none;
+	width: 5%;
+	margin:20px auto;
+}
+/*-------------------------------------------INI CSS CLASS----------------------------------------------------*/
+
+
+.top-container	{
+	background-color: #E4F9F5;
+	padding-top: 100px;
+	position: relative;
+}
+.middle-container {
+	margin-top: 20px;
+	
+	
+}
+.myprofile{
+	margin:50px auto;
+	width: 50%;
+	line-height: 2;
+}
+.profile{
+	width: 200px;
+	margin-bottom: 10px;
+}
+.skill{
+	padding: 20px 10px 50px;
+	background-color: #E4F9F5;
+	
+}
+.skill-comp {
+	width: 25%;
+	float: left;
+	margin-right: 20px;
+	
+	
+}
+
+.skill-netwo {
+	width: 25%;
+	float: right;
+
+}
+.skill-web {
+	width: 30%;
+	float: left;
+	margin-right: 20px;
+}
+
+.skill h2{
+	margin-top: 50px;
+}
+.skill h1 {
+	font-size: 3.8rem;
+}
+.comp{ 
+	width: 50%;
+	margin:20px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+	padding-top: 20px;
+
+}
+.netwo{
+	width: 50%;
+	margin:20px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+	padding-top: 20px;
+
+
+}
+.web{
+	width: 50%;
+	margin:20px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+	padding-top: 20px;
+
+
+}
+.bottom-container {
+	margin-top: 20px;
+	padding-bottom: 100px;	
+}
+.bottom-container h1 {
+	font-size: 3.8rem;
+}
+.btn-contact {
+	background-color:#66BFBF;
+	width: 8rem;
+	padding: 5px;
+	margin :auto;
+	border-radius: 20px;
+}
+.btn-contact a{
+	text-decoration: none;
+	color: white;
+}
+.btn-contact:hover{ 
+	background-color: #30E3CA;
+
+}
+.awan-atas{
+	width: 25%;
+	position: absolute;
+	top: 10px;
+	right: 70px;
+
+
+}
+.awan-bawah {
+	width: 25%;
+	position: absolute;
+	left: 60px;
+	top: 150px;
+
+}
+.gunung {
+	width: 50%;
+}
+.footer{
+	font-size: 0.6rem;
+	color: #EAF6F6;
+	height: 100px;
+	background-color: #66BFBF;
+	margin-top: 20px;
+	padding-top: 40px;
+
+}
+.footer a{
+	font-size: 1rem;
+	color: #11999E;
+	text-decoration: none;
+	margin:10px 10px 20px 10px;
+
+
+
+}
+.footer a:hover{
+	color: #EAF6F6;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+	
+	font-family: 'Sacramento', cursive;
+	font-size: 2.5rem;
+	color: #66BFBF;
+	line-height: 2;
+	}
+  h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	color: #66BFBF;
+	}
+	.myprofile h2 {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 1.2rem;
+	color: #66BFBF;
+	}
+	.profile{
+	width: 150px;
+	}
+	.skill h1 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	}
+	.top-container	{
+	background-color: #E4F9F5;
+	padding-top: 50px;
+	position: relative;
+	}
+	.awan-atas{
+	width: 25%;
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	}
+	.awan-bawah {
+	width: 25%;
+	position: absolute;
+	left: 10px;
+	top: 90px;
+	}
+	.bottom-container h1 {
+	font-weight: bold;
+	font-size: 2.5rem;
+	}
+
+}

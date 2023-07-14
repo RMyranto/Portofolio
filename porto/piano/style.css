@@ -1,0 +1,49 @@
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	font-size: 5rem;
+}
+.piano {
+	  margin: 2% auto;
+    width: 100%;
+   
+
+}
+
+.tuts {
+
+  border: 0.8% solid #404B69;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #DA0463;
+  border-radius: 5px;
+  display: inline-block;
+  width: 10%;
+  height: 300px;
+  text-align: center;
+  margin: 0.3%;
+  background-color: white;
+}
+img {
+  width: 70%;
+  height: 450px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  img {
+  width: 100%;
+  height: 350px;
+  }
+}

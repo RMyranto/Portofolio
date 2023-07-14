@@ -1,0 +1,99 @@
+
+.baris1
+{
+	background-color: #ced7df;
+	height: 200px;
+	text-align: center;
+	
+}
+
+.gambar {
+	background-color: #cbcbcb;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: relative;
+	top:40%;
+	margin: auto;
+}
+.baris1 img {
+	
+	width: 50%;
+	
+}
+.tengah {
+	padding-top: 100px;
+	text-align: center;
+
+
+}
+.tengah h1 {
+	font-size: 1.8rem;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bolder;
+
+}
+.tengah h2{
+	font-size: 0.8rem;
+	color: #aaaeb1;
+}
+.tengah hr {
+	width: 90%;
+	border: 2px solid black;
+  	border-radius: 5px;
+	margin: 50px auto 0;
+	
+}
+.isi{
+	padding: 5%;
+	font-family: 
+
+}
+.isi h3{
+	font-size: 1.2rem;
+	font-weight: bolder;
+	font-family: 'Work Sans', sans-serif;
+	padding: 30px 0;
+}
+.isi p{
+	font-family: 'Work Sans', sans-serif;
+}
+.isi h4{
+	font-size: 0.9rem;
+	font-weight: bolder;
+	font-family: 'Work Sans', sans-serif;
+}
+.sisikanan {
+	border-left: 3px solid #cbcbcb;
+    height:100%;
+    padding-left: 50px;
+}
+.sisikanan .pt {
+	padding: 0px;
+}
+.footer {
+	min-height: 100px;
+	background-color: #ced7df;
+	padding: 50px;
+}
+.footer p {
+	text-align: center;
+	margin: auto;
+	font-size: 0.7rem;
+	color: black;
+	font-weight: bolder;
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) 
+{
+	.sisikanan {
+	 border-left: 0 ;
+	 border-top: 3px solid #cbcbcb;
+	 width: 90%;
+	 margin-top: 50px;
+	 padding-top: 50px;
+	 padding-left: 0px;
+	}
+}
